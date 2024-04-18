@@ -5,4 +5,4 @@ const app = express();
 const port = 5000;
 
 
-app.listen
+app.listen(port, () => console.log("server rinnung on port 5000"));
